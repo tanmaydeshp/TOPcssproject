@@ -1,0 +1,73 @@
+body{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    
+}
+
+.header, .hero, .footer{
+    background-color: #1f2937;
+}
+
+.hero{
+    display: flex;
+}
+.info-cards{
+    display:flex;
+}
+.info-card{
+    display: flex;
+    flex-direction: column;
+}
+.hero-main{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.hero-second{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+.header{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+ul{
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+button, .cta{
+    background-color: #3882f6;
+}
+.cta button{
+    border-color: #e5e7eb;
+}
+button{
+    color: #e5e7eb;
+}
+.quote{
+    background-color: #e5e7eb;
+}
+
+.quote-txt{
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
