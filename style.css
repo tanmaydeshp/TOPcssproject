@@ -6,6 +6,8 @@ body{
     /* background-color: #1f2937; */
     align-items: stretch;
     gap: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 .info{
@@ -56,6 +58,7 @@ body{
     justify-content: space-between;
     padding: 10px;
     background-color: #1f2937;
+    
 }
 .nav-links{
     display: flex;
