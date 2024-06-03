@@ -5,20 +5,32 @@ body{
     
 }
 
-.header, .hero, .footer{
+.top, .footer{
     background-color: #1f2937;
+}
+
+.top{
+    
 }
 
 .hero{
     display: flex;
+    justify-content: space-around;
+    
 }
+
 .info-cards{
     display:flex;
+    gap: 10px;
 }
+
 .info-card{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
+
 .hero-main{
     font-size: 48px;
     color: #f9faf8;
@@ -70,4 +82,10 @@ button{
     font-style: italic;
     font-size: 36px;
 }
+
+.info-card img{
+    width: 100%;
+    
+}
+
 
